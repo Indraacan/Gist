@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #c4c4c4 !important;
+}
+
+.navbar-brand {
+    font-size: 1.8rem !important;
+    font-weight: bold;
+}
+
+.fa-1x {
+    font-size: 1.5rem !important;
+    color: black !important;
+}
