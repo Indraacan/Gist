@@ -3,7 +3,7 @@ import { Container, Table } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import Axios from "axios";
 
-const Following = (props) => {
+const Followers = (props) => {
   const [data, setData] = useState([]);
   const { id } = useParams();
   const URL = `https://api.github.com/users`;
@@ -61,4 +61,4 @@ const Following = (props) => {
   );
 };
 
-export default Following;
+export default Followers;
